@@ -1,0 +1,295 @@
+.recipe-button {
+  border-radius: 8px;
+  border: none;
+  text-align: initial;
+  cursor: pointer;
+  background: none;
+  align-self: baseline;
+  padding: 0;
+}
+h1{
+  margin:0;
+}
+.country-recipes::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 2px rgba(83, 83, 83, 0.048);
+  border-radius: 8px;
+  background-color: #F5F5F5;
+}
+
+.country-recipes::-webkit-scrollbar
+{
+  width: 4px;
+  background-color: #F5F5F5;
+}
+
+.country-recipes::-webkit-scrollbar-thumb
+{
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0 0 2px rgba(83, 83, 83, 0.048);
+  background-color: rgba(80, 79, 79, 0.473);
+}
+.favorite-recipes::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 2px rgba(83, 83, 83, 0.048);
+  border-radius: 8px;
+  background-color: #F5F5F5;
+}
+
+.favorite-recipes::-webkit-scrollbar
+{
+  width: 4px;
+  background-color: #F5F5F5;
+}
+
+.favorite-recipes::-webkit-scrollbar-thumb
+{
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0 0 2px rgba(83, 83, 83, 0.048);
+  background-color: rgba(80, 79, 79, 0.473);
+}
+.searched-recipes::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 2px rgba(83, 83, 83, 0.048);
+  border-radius: 8px;
+  background-color: #F5F5F5;
+}
+
+.searched-recipes::-webkit-scrollbar
+{
+  width: 4px;
+  background-color: #F5F5F5;
+}
+
+.searched-recipes::-webkit-scrollbar-thumb
+{
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0 0 2px rgba(83, 83, 83, 0.048);
+  background-color: rgba(80, 79, 79, 0.473);
+}
+.home{
+  max-width: 1050px;
+  margin: 0 auto;
+  border: 2px solid #e0e0e0;
+  height:100vh;
+}
+.favorite-recipes {
+  display: grid;
+  overflow: auto;
+  padding: 19px;
+  grid-auto-flow: column;
+  grid-auto-columns: min-content;
+}
+
+.recipe-img {
+  object-fit: cover;
+  width: 270px;
+  margin-right: 18px;
+  border-radius: 8px;
+}
+.recipe-label {
+  font-size: 14px;
+  color: #2f2f2fed;
+  text-align: initial;
+  width: 80%;
+  display: inline-block;
+}
+.recipe-kcal {
+  font-size: 11px;
+  display: flex;
+  margin-left: 10px;
+}
+.searched-recipes {
+  text-align: initial;
+  display: flex;
+  overflow: auto;
+  padding-left: 19px;
+  margin-top: 30px;
+}
+.searched-recipes:empty{
+  display:none;
+}
+.headerTitle{
+  display: flex;
+  justify-content: space-between;
+}
+.trendyRecipes{
+  text-align: initial;
+  margin: 0;
+  margin-left: 19px;
+
+  text-align: center;
+}
+.recomendation-button {
+  width: 200px;
+  display: flex;
+  padding-right: 19px;
+  height: 203px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  flex-direction: column;
+}
+.recomendation-name{
+  margin: 3px 0 3px 0;
+}
+.image{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ }
+.fruit{
+  background: url("https://img.freepik.com/free-photo/avocado-dark-wood-background_1205-769.jpg?size=626&ext=jpg&ga=GA1.2.1969768956.1607973783");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.pizza{
+  background-image: url("https://image.freepik.com/free-photo/tasty-chicken-pizza-with-mushrooms-spices_114579-10735.jpg");
+}
+.meat {
+  background-image: url("https://img.freepik.com/free-photo/sliced-premium-raw-whale-meat-steak-marble-stone-cutting-board-isolated-white-table_346278-523.jpg?size=626&ext=jpg&ga=GA1.2.1969768956.1607973783");
+}
+.dessert {
+  background-image: url("https://image.freepik.com/free-photo/pancake-with-fresh-blueberries-fresh-strawberries-honey_1339-53929.jpg");
+}
+.fish {
+  background-image: url("https://img.freepik.com/free-photo/fresh-sea-bass-fish-ingredients-cooking-lemon-rosemary-white-background-top-view_101035-101.jpg?size=626&ext=jpg&ga=GA1.2.1969768956.1607973783");
+}
+.cookies {
+  background-image: url("https://img.freepik.com/free-photo/pile-cookies-cloth-wooden-table_1150-19666.jpg?size=626&ext=jpg&ga=GA1.2.1969768956.1607973783");
+}
+.flag-svg {
+  width: 55px;
+  height: 55px;
+}
+.country-recipes{
+  display: flex;
+  overflow: auto;
+  padding:19px;
+}
+.dish-recipe{
+  display: flex;
+  gap: 5px;
+  overflow: auto;
+
+  justify-content: center;
+}
+.dish-button{
+    height: 60px;
+    border-radius: 46px;
+    border: none;
+    padding: 7px;
+    color: #000000c4;
+    margin: 3px;
+    cursor: pointer;
+}
+.dish-svg{
+  width: 55px;
+  height: 55px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.recipe-name {
+  margin: 0;
+  margin-left: -7px;
+  margin-right: 8px;
+}
+.img-recipe{
+  height: 45px;
+}
+.favorite-recomendation{
+  margin-bottom: 19px;
+  text-align: initial;
+  color: white;
+}
+.favorite-food{
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background: #f4f4f4;
+}
+.favorite-recomendation > div > h3 {
+  margin: 0;
+  margin-left: 19px;
+  text-align: center;
+}
+.mainTitle{
+  text-align: initial;
+  margin-left: 19px;
+  text-shadow: 1px 1px #ffd4b4;
+}
+.allRecomendation{
+  background: #273131;
+  padding-top: 10px;
+}
+header{
+  padding-top: 19px;
+  position: relative;
+  background: url(https://st2.depositphotos.com/1013886/5744/i/450/depositphotos_57444285-Healthy-food-background.jpg);
+  padding-bottom: 40px;
+  background-position: bottom;
+  background-size: inherit;
+}
+.imglogo{
+  height: 30px;
+  position: absolute;
+  left: 6px;
+  top: 13px;
+  z-index: 1;
+}
+.button-backHome {
+  background: none;
+  border:none;
+  color: rgba(62, 62, 250, 0.849);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.favorite-recomendation:empty{
+  display:none;
+}
+.favorite-food:empty{
+  display: none;
+}
+.favorite-recipes:empty{
+  display: none;
+}
+.backHome {
+  margin-top: 30px;
+}
+
+
+@media only screen and (max-width: 750px) {
+  .trendyRecipes{
+    text-align: initial;
+  }
+  .dish-recipe{
+    justify-content:flex-start;
+  }
+  .favorite-recomendation > div > h3 {
+    text-align: initial;
+  }
+  .country-recipes{
+    justify-content: flex-start;
+  }
+  .favorite-recipes {
+    justify-content: flex-start;
+  }
+  .home{
+    border:none;
+
+  }
+  .favorite-recipes::-webkit-scrollbar
+{
+  display: none;
+}
+.country-recipes::-webkit-scrollbar{
+  display: none;
+}
+.searched-recipes::-webkit-scrollbar{
+  display: none;
+}
+}

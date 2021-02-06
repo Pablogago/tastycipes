@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color:rgba(0, 0, 0, 0.829);
+  scrollbar-width: thin;
+  height:100%;
+  background: url(https://hazlo-app-c809c.web.app/images/welcome-bg.png);
+}
+button {
+  font-family: 'Poppins', sans-serif;
+  color:rgba(0, 0, 0, 0.829)
+}
+button:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}

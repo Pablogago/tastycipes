@@ -1,0 +1,15 @@
+describe("Tastycipe test", function () {
+  it("header check", function () {
+    cy.visit("https://tastycipe-app.web.app/")
+    cy.get('.mainTitle')
+      .contains("TastyCipes")
+    cy.get(".input-search").click()
+      .type("salad")
+      .should("have.value", "salad")
+      .type("{enter}")
+    cy.get('.searched-recipes > :nth-child(3)').click()
+    cy.get('.title')
+      .contains("Strawberry Hazelnut Salad")
+    cy.get('.back-button').click()
+  })
+})
